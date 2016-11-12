@@ -1,0 +1,38 @@
+$def with(resul)
+<html>
+    <head></head>
+    <body>
+        <h1>Tasa de ocupacion infantil</h1>
+        
+        <p>Una gran problematica que tiene el pais es la falta de escuelas, promocion de la educacion y falta de recursos economicos en el hogar, 
+                por ello muchos padres se ven obligados a sacar a sus hijos de las escuelas y mandarlos al campoo laboral.</p>
+                <p>El siguiete proyecto muestra los estados y los anios con los indices mas altos y bajos de ocupacion infantil </p>
+       
+      <table border="1" >
+           <tr>
+              <td>
+                  Descripcion
+              </td>
+              <td>
+                 [anio,estado,infantes/ocupacion,total/infantes] 
+              </td>
+          </tr>
+          <tr>
+              <td>
+                  Estado con mayor indice y el anio
+              </td>
+              <td>
+                 $resul[0] 
+              </td>
+          </tr>
+           <tr>
+              <td>
+                  Estado con menor indice y el anio
+              </td>
+              <td>
+                 $resul[1]
+              </td>
+          </tr>
+      </table>
+    </body>
+</html>
